@@ -1,0 +1,12 @@
+universe                = vanilla
+executable              = work.sh
+transfer_input_files    = input.txt
+transfer_output_files   = output.txt
+output                  = transfer.out
+error                   = transfer.err
+log                     = transfer.log
+request_cpus            = 1
+request_memory          = 1GB
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+queue

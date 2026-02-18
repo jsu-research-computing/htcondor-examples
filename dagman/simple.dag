@@ -1,0 +1,3 @@
+JOB A stepA.sub
+JOB B stepB.sub
+PARENT A CHILD B

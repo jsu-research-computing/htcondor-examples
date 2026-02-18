@@ -1,0 +1,10 @@
+universe                = vanilla
+executable              = work.sh
+output                  = job.out
+error                   = job.err
+log                     = job.log
+request_cpus            = 1
+request_memory          = 1GB
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+queue

@@ -1,0 +1,10 @@
+universe                = vanilla
+executable              = stepB.sh
+output                  = stepB.out
+error                   = stepB.err
+log                     = stepB.log
+request_cpus            = 1
+request_memory          = 512MB
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+queue
